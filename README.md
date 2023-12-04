@@ -18,8 +18,11 @@ assigning b to the rank of the matrix and then printing the rank of the matrix b
 # Developed by: YENDLURI CHANDANA
 # RegisterNumber:23011258
 import numpy as np
+
 A=[[1,2,3],[1,2,3]]
+
 b=np.linalg.matrix_rank(A)
+
 print(b)
 
 ## Output:
